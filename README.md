@@ -5,10 +5,10 @@
 #### Tables of contents
 * [Path tree](#path-tree)
 * [Direct links to folders](#direct-links-to-folders)  
-* [About the Shell Eco Marathon](#about_the_shell_eco_marathon)
+* [About the Shell Eco Marathon Challenge](#about-the-shell-eco-marathon-challenge)
 * [Results preview](#app-preview)
 * [Simplifications](#simplifications)
-* [Possible improvements](#possible_improvements)
+* [Possible improvements](#possible-improvements)
 
 
 ## Path tree
