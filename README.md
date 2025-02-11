@@ -44,8 +44,8 @@ PIE_Trajectory_Planification/
 
 ## Direct links to folders  
 
-* [First_Tests](./First_Tests/) : various test cases related to different modules.  
-    * [Obstacles_concatenation](./First_Tests/Obstacles_concatenation/) : tests the merging of obstacles.  
+* [First_Tests](./First_Tests/) : various test cases related to different modules
+    * [Obstacles_concatenation](./First_Tests/Obstacles_concatenation/) : tests the merging of obstacles  
     * [Test_Arc](./First_Tests/Test_Arc/) : tests related to arc classes
     * [Test_Djikstra](./First_Tests/Test_Djikstra/) : tests the implementation of Dijkstra’s algorithm  
     * [Test_Graph](./First_Tests/Test_Graph/) : verifies the graph class and functionalities
@@ -53,7 +53,7 @@ PIE_Trajectory_Planification/
     * [Test_Param](./First_Tests/Test_Param/) : parametered function related tests 
     * [Test_Point](./First_Tests/Test_Point/) : tests related to point classes  
 
-* [Graph_Src](./Graph_Src/) : source code related to graph functionalities.  
+* [Graph_Src](./Graph_Src/) : source code related to graph functionalities  
 
 * [PIE_Track](./PIE_Track/) : finding the shortest path on the real world track and exporting results
     * [Data](./PIE_Track/Data/) : track data files used for processing  
