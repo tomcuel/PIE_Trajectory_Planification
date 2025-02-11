@@ -90,8 +90,10 @@ Additionally, you can explore the official [track data page](https://telemetry.s
 
 
 ## Results preview
-
-
+The real track look like this on Google Maps
+<img src="./PIE_Track/Visuals/Real_Track_Maps.png" alt="login_screen_render" width="350" height="225"/>
+After dowloading the csv data of the track on the website, I then centered everything around the middle of the track in meters, that is representated in this picture 
+<img src="./PIE_Track/Visuals/track_data_utm.png" alt="login_screen_render" width="350" height="225"/>
 
 
 ## Simplifications
