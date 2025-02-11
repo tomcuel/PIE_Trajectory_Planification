@@ -79,7 +79,7 @@ The **Shell Eco-marathon** is a global competition that challenges students to d
 The challenge is divided into different categories based on the type of vehicle and energy source:  
 1. **Prototype:** Ultra-lightweight, futuristic vehicles focused solely on efficiency.  
 2. **Urban Concept:** More practical, city-oriented vehicles that resemble real-world cars.  
-3. **Autonomous Urban Concept:** subcategory of Urban Concept, where autonomous vehicles must complete a course without driver intervention, showcasing autonomous driving technologies and energy optimization, reflecting current industry trends *(the category we are competing in, though not yet advanced enough to qualify for the real-world event)*.
+3. **Autonomous Urban Concept:** subcategory of Urban Concept, where autonomous vehicles must complete a course without driver intervention, showcasing autonomous driving technologies and energy optimization, reflecting current industry trends *(the category we are competing in, though not yet advanced enough to qualify for the real-world event)*. \\
 **Energy Sources:** Vehicles can be powered by gasoline, battery-electric systems, hydrogen fuel cells, or alternative fuels.  
 
 ### More Information
