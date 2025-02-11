@@ -110,7 +110,7 @@ At the end of the day, instead of covering 1,319 meters per lap, we only need to
 
 
 ## Simplifications
-
+* Only 1/3 of the points were considered when modelizing the graph, but that's not that much of deal since there are more than a thousand points all very close to each others. Having 1 point out of 3 doesn't change how the track look like at the end 
 
 
 ## Possible improvements
