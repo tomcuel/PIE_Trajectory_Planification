@@ -98,6 +98,13 @@ After dowloading the csv data of the track on the website, I then centered every
 
 <img src="./PIE_Track/Visuals/track_data_utm.png" alt="login_screen_render" width="350" height="225"/>
 
+Then, I created the graph corresponding to the track and I found out the optimal path through the track, that I modelize with many simplifications that are both related to our problem *(10m wide track, supposed 2m max vehicle, only obstacle = track layout)* and my code restriction *(not all arcs are considered since there are too many of them, for time computation purpose, and they only are segments for example)*
+
+<img src="./PIE_Track/Visuals/track_visual_result.png" alt="login_screen_render" width="350" height="225"/>
+
+I finally exported the data to convert it back to GPS coordinates so it can be read like that, but I could be inverted back to centered data, depending on the future needs on the project 
+
+<img src="./PIE_Track/Visuals/track_visual_lat_long.png" alt="login_screen_render" width="350" height="225"/>
 
 ## Simplifications
 
