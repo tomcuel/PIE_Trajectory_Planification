@@ -113,6 +113,14 @@ At the end of the day, instead of covering 1,319 meters per lap, we only need to
 * Only 1/3 of the points were considered when modelizing the graph, but that's not that much of deal since there are more than a thousand points all very close to each others. Having 1 point out of 3 doesn't change how the track look like at the end 
 * I supposed that the track is 10m wide at any point, even it could be less, but since I took margins, there will not be any problem of the vehicle going off
 * There is no padding involved, since we already took that into account when modelizing the track borders
-
+* There is no need to consider if the trajectory does make some sharps since, the number and proximity of the points and the shortest path is already penalizing them
+* The arcs are only segments since the point are really close, one to another, there is no need to consider parametric arcs, since the complexity of them will make everything to difficult to modelize for me right now
+* The obstacles are only the track layout, so there is no probleme with obstacles intersection 
+* To separate the start and the finish point, we just add an obstacle between the two points that we connect to the track layout the right way
 
 ## Possible improvements
+About the code restriction : 
+
+
+
+What can be added : 
