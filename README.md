@@ -70,12 +70,12 @@ PIE_Trajectory_Planification/
 ## About the Shell Eco Marathon Challenge
 The **Shell Eco-marathon** is a global competition that challenges students to design, build, and drive the most energy-efficient vehicles. The event brings together teams from around the world to push the boundaries of fuel efficiency and sustainable mobility.  
 
-### Objectives  
+#### Objectives  
 - **Energy Efficiency:** Develop a vehicle that consumes the least amount of fuel or energy over a set distance.  
 - **Innovation & Engineering:** Apply advanced engineering principles to optimize aerodynamics, materials, and powertrain efficiency.  
 - **Real-World Impact:** Encourage sustainable transportation solutions by fostering research in energy-efficient technologies.  
 
-### Competition Categories  
+#### Competition Categories  
 The challenge is divided into different categories based on the type of vehicle and energy source:  
 1. **Prototype:** Ultra-lightweight, futuristic vehicles focused solely on efficiency.  
 2. **Urban Concept:** More practical, city-oriented vehicles that resemble real-world cars.  
@@ -83,12 +83,10 @@ The challenge is divided into different categories based on the type of vehicle 
 
 **Energy Sources:** Vehicles can be powered by gasoline, battery-electric systems, hydrogen fuel cells, or alternative fuels.  
 
-### More Information
-
+#### More Information
 For detailed information about the competition, we encourage you to visit the official [Shell Eco-marathon website](https://www.shellecomarathon.com). This site provides comprehensive insights into the event's history, categories, and global participation.
 
 Additionally, you can explore the official [track data page](https://telemetry.sem-app.com/wiki/doku.php/telemetry_data/tracks), which includes direct access to telemetry and detailed data for the various tracks around the world. This resource can help you better understand the specific conditions and challenges of each location, to start working on it.
-
 
 
 ## Results preview
