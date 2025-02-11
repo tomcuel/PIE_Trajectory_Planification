@@ -5,7 +5,7 @@
 #### Tables of contents
 * [Path tree](#path-tree)
 * [Direct links to folders](#direct-links-to-folders)  
-* [About the Shell Eco Marathon Challenge](#about_the_shell_eco_marathon_challenge)
+* [About the Shell Eco Marathon](#about_the_shell_eco_marathon)
 * [Results preview](#app-preview)
 * [Simplifications](#simplifications)
 * [Possible improvements](#possible_improvements)
