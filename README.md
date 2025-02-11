@@ -84,7 +84,7 @@ The challenge is divided into different categories based on the type of vehicle 
 
 ### More Information
 
-For detailed information about the competition, we encourage you to visit the official [Shell Eco-marathon website](https://www.shell.com/make-the-future/shell-ecomarathon.html). This site provides comprehensive insights into the event's history, categories, and global participation.
+For detailed information about the competition, we encourage you to visit the official [Shell Eco-marathon website](https://www.shellecomarathon.com). This site provides comprehensive insights into the event's history, categories, and global participation.
 
 Additionally, you can explore the official [track data page](https://telemetry.sem-app.com/wiki/doku.php/telemetry_data/tracks), which includes direct access to telemetry and detailed data for the various tracks around the world. This resource can help you better understand the specific conditions and challenges of each location, to start working on it.
 
