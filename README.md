@@ -67,4 +67,17 @@ PIE_Trajectory_Planification/
     * [Test_less_points](./Test_Real_Track/Test_less_points/) : tests conducted with a reduced number of points for the real track, doesn't have the processed output as the final code does contain
 
 
+## About the Shell Eco Marathon Challenge
 
+
+
+## Results preview
+
+
+
+
+## Simplifications
+
+
+
+## Possible improvements
