@@ -110,17 +110,28 @@ At the end of the day, instead of covering 1,319 meters per lap, we only need to
 
 
 ## Simplifications
-* Only 1/3 of the points were considered when modelizing the graph, but that's not that much of deal since there are more than a thousand points all very close to each others. Having 1 point out of 3 doesn't change how the track look like at the end 
-* I supposed that the track is 10m wide at any point, even it could be less, but since I took margins, there will not be any problem of the vehicle going off
-* There is no padding involved, since we already took that into account when modelizing the track borders
-* There is no need to consider if the trajectory does make some sharps since, the number and proximity of the points and the shortest path is already penalizing them
-* The arcs are only segments since the point are really close, one to another, there is no need to consider parametric arcs, since the complexity of them will make everything to difficult to modelize for me right now
-* The obstacles are only the track layout, so there is no probleme with obstacles intersection 
-* To separate the start and the finish point, we just add an obstacle between the two points that we connect to the track layout the right way
+* Only 1/3 of the points were considered when modelizing the graph, but that's not that much of deal since there are more than a thousand points all very close to each others. Having 1 point out of 3 doesn't change how the track look like at the end.
+* I supposed that the track is 10m wide at any point, even it could be less, but since I took margins, there will not be any problem of the vehicle going off.
+* There is no padding involved, since we already took that into account when modelizing the track borders.
+* There is no need to consider if the trajectory does make some sharps since, the number and proximity of the points and the shortest path is already penalizing them.
+* The arcs are only segments since the point are really close, one to another, there is no need to consider parametric arcs, since the complexity of them will make everything to difficult to modelize for me right now.
+* The obstacles are only the track layout, so there is no probleme with obstacles intersection. 
+* To separate the start and the finish point, we just add an obstacle between the two points that we connect to the track layout the right way.
 
 ## Possible improvements
-About the code restriction : 
+#### About the code restriction : 
+- The arcs have already been set up to account for circular arcs and parameterized arcs, but it will not be considered.
+- Overlapping occurs when using non-decimal numbers *(ex : 1.23434554e-17)*, leading to minor overlapping issues on nodes and arcs in the graph, that will make more nodes than needed but suppressing them will take too much time for no such gains at the end.
+- Currently, there must be enough space between obstacles to allow for padding. Future improvements could handle intersecting obstacles by merging them into larger obstacles, so the padding isn't an issue.
+- But right now, obstacles are assumed not to intersect, though they can be in contact, the concatenation of obstacle doesn't work perfectly in all the possible scenario *(ex : common sides with common end points)*, that's why I modelize the track as an unique obstacle.
+- For shapes that aren't a polygon, I didn't come up with anything yet, but I could be possible to try to find the best interpolated polygon for each shap, maybe including if possible things if the arc circle or the parametrised arcs if it's supported by the graph modelisation.
+- Adjust margins and sample sizes for testing on a real track with parameterized arcs for arcs intersections, if necessary *(requirements will vary depending on the scale of the problem)*.
+- The graph creation is slow if we want to consider overlapping arcs, intersections points, … On top of that, I'm adding obstacle one by one and doing the same work every time 
+- The modelisation of the inside and outside layout at a specific distance from a center path isn't great for small samples of points since each abrupt change of direction will massively impact the result of the inside and outside layout 
 
-
-
-What can be added : 
+#### What can be added in the future :
+- Obstacles could be circular, movable, or even cease to be obstacles, with varying alert levels depending on time dynamics, making the graph of the problem constantly different.
+- Adapt arcs and padding for non-polygonal shapes (requires research on how to properly achieve this). Improve padding optimization beyond simple rectangles, considering whether an object can rotate and, later, incorporating the physical properties of the environment to make the padding more realistic.
+- Model elevation changes by extending distances and adding associated cost penalties, that better reflects the reality. Consider modeling with adjacency matrices based on elevation to determine cost and integrate track datas.
+- Incorporate the physical characteristics of the vehicle to establish physics-based constraints on obstacle traversal (the vehicle cannot perform 45° turns without translating and doing only rotations, even if it's already penalised by the Djikstra Algorithm search.
+- Modify the search algorithm if arcs are no longer simple segments; introduce functions to account for arc costs, among other necessary adaptations.
