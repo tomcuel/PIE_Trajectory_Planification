@@ -43,7 +43,6 @@ PIE_Trajectory_Planification/
 
 
 ## Direct links to folders  
-
 * [First_Tests](./First_Tests/) : various test cases related to different modules
     * [Obstacles_concatenation](./First_Tests/Obstacles_concatenation/) : tests the merging of obstacles  
     * [Test_Arc](./First_Tests/Test_Arc/) : tests related to arc classes
